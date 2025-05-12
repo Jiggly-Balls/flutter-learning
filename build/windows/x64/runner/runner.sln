@@ -1,0 +1,84 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ALL_BUILD", "ALL_BUILD.vcxproj", "{AE6506BE-C447-342C-9117-11166438A462}"
+	ProjectSection(ProjectDependencies) = postProject
+		{BF630403-2078-336C-B584-56A259353EF6} = {BF630403-2078-336C-B584-56A259353EF6}
+		{11C4BCE1-F48C-3BBF-A795-0499C9679DD7} = {11C4BCE1-F48C-3BBF-A795-0499C9679DD7}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "INSTALL", "INSTALL.vcxproj", "{658B60E7-6C6B-348E-9F9A-B917510DDAB9}"
+	ProjectSection(ProjectDependencies) = postProject
+		{AE6506BE-C447-342C-9117-11166438A462} = {AE6506BE-C447-342C-9117-11166438A462}
+		{BF630403-2078-336C-B584-56A259353EF6} = {BF630403-2078-336C-B584-56A259353EF6}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ZERO_CHECK", "..\\ZERO_CHECK.vcxproj", "{BF630403-2078-336C-B584-56A259353EF6}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "flutter_assemble", "..\flutter\flutter_assemble.vcxproj", "{EA01EE81-4F6D-3989-99D3-331D31C29E84}"
+	ProjectSection(ProjectDependencies) = postProject
+		{BF630403-2078-336C-B584-56A259353EF6} = {BF630403-2078-336C-B584-56A259353EF6}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "flutter_learning", "flutter_learning.vcxproj", "{11C4BCE1-F48C-3BBF-A795-0499C9679DD7}"
+	ProjectSection(ProjectDependencies) = postProject
+		{BF630403-2078-336C-B584-56A259353EF6} = {BF630403-2078-336C-B584-56A259353EF6}
+		{EA01EE81-4F6D-3989-99D3-331D31C29E84} = {EA01EE81-4F6D-3989-99D3-331D31C29E84}
+		{507B4C1C-6806-331C-BCBC-1EC545998EDE} = {507B4C1C-6806-331C-BCBC-1EC545998EDE}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "flutter_wrapper_app", "..\flutter\flutter_wrapper_app.vcxproj", "{507B4C1C-6806-331C-BCBC-1EC545998EDE}"
+	ProjectSection(ProjectDependencies) = postProject
+		{BF630403-2078-336C-B584-56A259353EF6} = {BF630403-2078-336C-B584-56A259353EF6}
+		{EA01EE81-4F6D-3989-99D3-331D31C29E84} = {EA01EE81-4F6D-3989-99D3-331D31C29E84}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Profile|x64 = Profile|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AE6506BE-C447-342C-9117-11166438A462}.Debug|x64.ActiveCfg = Debug|x64
+		{AE6506BE-C447-342C-9117-11166438A462}.Debug|x64.Build.0 = Debug|x64
+		{AE6506BE-C447-342C-9117-11166438A462}.Profile|x64.ActiveCfg = Profile|x64
+		{AE6506BE-C447-342C-9117-11166438A462}.Profile|x64.Build.0 = Profile|x64
+		{AE6506BE-C447-342C-9117-11166438A462}.Release|x64.ActiveCfg = Release|x64
+		{AE6506BE-C447-342C-9117-11166438A462}.Release|x64.Build.0 = Release|x64
+		{658B60E7-6C6B-348E-9F9A-B917510DDAB9}.Debug|x64.ActiveCfg = Debug|x64
+		{658B60E7-6C6B-348E-9F9A-B917510DDAB9}.Profile|x64.ActiveCfg = Profile|x64
+		{658B60E7-6C6B-348E-9F9A-B917510DDAB9}.Release|x64.ActiveCfg = Release|x64
+		{BF630403-2078-336C-B584-56A259353EF6}.Debug|x64.ActiveCfg = Debug|x64
+		{BF630403-2078-336C-B584-56A259353EF6}.Debug|x64.Build.0 = Debug|x64
+		{BF630403-2078-336C-B584-56A259353EF6}.Profile|x64.ActiveCfg = Profile|x64
+		{BF630403-2078-336C-B584-56A259353EF6}.Profile|x64.Build.0 = Profile|x64
+		{BF630403-2078-336C-B584-56A259353EF6}.Release|x64.ActiveCfg = Release|x64
+		{BF630403-2078-336C-B584-56A259353EF6}.Release|x64.Build.0 = Release|x64
+		{EA01EE81-4F6D-3989-99D3-331D31C29E84}.Debug|x64.ActiveCfg = Debug|x64
+		{EA01EE81-4F6D-3989-99D3-331D31C29E84}.Debug|x64.Build.0 = Debug|x64
+		{EA01EE81-4F6D-3989-99D3-331D31C29E84}.Profile|x64.ActiveCfg = Profile|x64
+		{EA01EE81-4F6D-3989-99D3-331D31C29E84}.Profile|x64.Build.0 = Profile|x64
+		{EA01EE81-4F6D-3989-99D3-331D31C29E84}.Release|x64.ActiveCfg = Release|x64
+		{EA01EE81-4F6D-3989-99D3-331D31C29E84}.Release|x64.Build.0 = Release|x64
+		{11C4BCE1-F48C-3BBF-A795-0499C9679DD7}.Debug|x64.ActiveCfg = Debug|x64
+		{11C4BCE1-F48C-3BBF-A795-0499C9679DD7}.Debug|x64.Build.0 = Debug|x64
+		{11C4BCE1-F48C-3BBF-A795-0499C9679DD7}.Profile|x64.ActiveCfg = Profile|x64
+		{11C4BCE1-F48C-3BBF-A795-0499C9679DD7}.Profile|x64.Build.0 = Profile|x64
+		{11C4BCE1-F48C-3BBF-A795-0499C9679DD7}.Release|x64.ActiveCfg = Release|x64
+		{11C4BCE1-F48C-3BBF-A795-0499C9679DD7}.Release|x64.Build.0 = Release|x64
+		{507B4C1C-6806-331C-BCBC-1EC545998EDE}.Debug|x64.ActiveCfg = Debug|x64
+		{507B4C1C-6806-331C-BCBC-1EC545998EDE}.Debug|x64.Build.0 = Debug|x64
+		{507B4C1C-6806-331C-BCBC-1EC545998EDE}.Profile|x64.ActiveCfg = Profile|x64
+		{507B4C1C-6806-331C-BCBC-1EC545998EDE}.Profile|x64.Build.0 = Profile|x64
+		{507B4C1C-6806-331C-BCBC-1EC545998EDE}.Release|x64.ActiveCfg = Release|x64
+		{507B4C1C-6806-331C-BCBC-1EC545998EDE}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6F69A9AA-9053-3C27-8CCB-5E3F3D6996FE}
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
